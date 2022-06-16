@@ -1,26 +1,21 @@
-Pod::Spec.new do |s|
+Pod::Spec.new do |spec|
 
- s.name         = "VizuryEventLoggerNew"
- s.version      = "1.6.7"
- s.summary      = "Vizury Event Logger for iOS"
- s.description  = <<-DESC
-                    Vizury is a mobile marketing automation company. This framework helps to track events of users.
-                    DESC
+  spec.name         = "VizuryEventLoggerNew"
+  spec.version      = "0.0.1"
+  spec.summary      = "A CocoaPods library written in C"
 
- s.homepage     = "https://affle.com"
- s.documentation_url = 'https://github.com/ashishaffle/vizury-new-sdk'
- s.license      = { :type => 'Commercial', :file => 'LICENSE' }
- s.author       = { 'Ayon Chowdhury' => 'ayon.chowdhury@affle.com' }
- s.platform     = :ios
- s.ios.deployment_target = '12.1'
- spec.swift_version = "4.2"
+  spec.description  = <<-DESC
+This CocoaPods library helps you perform calculation.
+                   DESC
 
- s.source       = {
-                        :git => 'https://github.com/ashishaffle/vizury-new-sdk.git',
-                        :tag => 'VizuryEventLoggerNew-' + s.version.to_s
-                    }
- spec.source_files  = "VizuryEventLogger/**/*.{h,m,swift}"
+  spec.homepage     = "https://github.com/ashishaffle/vizury-new-sdk"
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
+  spec.author       = { "Ashish Saxena" => "ashish.saxena@affle.com" }
 
- 
+  spec.ios.deployment_target = "12.1"
+  spec.swift_version = "4.2"
+
+  spec.source        = { :git => "https://github.com/ashishaffle/vizury-new-sdk.git", :tag => "#{spec.version}" }
+  spec.source_files  = "VizuryEventLogger/**/*.{h,m,swift}"
 
 end

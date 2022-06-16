@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-VizuryObjCSample/Pods-VizuryObjCSample-frameworks.sh
+${BUILT_PRODUCTS_DIR}/GoogleUtilities-iOS9.0/GoogleUtilities.framework
+${BUILT_PRODUCTS_DIR}/PromisesObjC-iOS9.0/FBLPromises.framework
+${BUILT_PRODUCTS_DIR}/Protobuf-iOS9.0/Protobuf.framework
+${BUILT_PRODUCTS_DIR}/nanopb-iOS9.0/nanopb.framework

@@ -1,0 +1,1435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A15CD1D25186D6000269C50 /* TextTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1ABD68B12511D9B100215699 /* TextTableCell.xib */; };
+		1A3EB76A25108C2B00D5C485 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3EB76925108C2B00D5C485 /* AppDelegate.m */; };
+		1A3EB77025108C2B00D5C485 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3EB76F25108C2B00D5C485 /* ViewController.m */; };
+		1A3EB77325108C2B00D5C485 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A3EB77125108C2B00D5C485 /* Main.storyboard */; };
+		1A3EB77525108C2D00D5C485 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A3EB77425108C2D00D5C485 /* Assets.xcassets */; };
+		1A3EB77825108C2D00D5C485 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A3EB77625108C2D00D5C485 /* LaunchScreen.storyboard */; };
+		1A3EB77B25108C2D00D5C485 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3EB77A25108C2D00D5C485 /* main.m */; };
+		1A3EB786251099C500D5C485 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A3EB785251099C500D5C485 /* GoogleService-Info.plist */; };
+		1A60128B24EA44D5006030CC /* AlertManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A60128924EA44D5006030CC /* AlertManager.m */; };
+		1A60128C24EA44D5006030CC /* AlertManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A60128A24EA44D5006030CC /* AlertManager.h */; };
+		1ABD68C12511D9B100215699 /* DoubleButtonTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1ABD68AF2511D9B100215699 /* DoubleButtonTableCell.xib */; };
+		1ABD68C22511D9B100215699 /* TextTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABD68B02511D9B100215699 /* TextTableCell.m */; };
+		1ABD68C32511D9B100215699 /* TextTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1ABD68B12511D9B100215699 /* TextTableCell.xib */; };
+		1ABD68C42511D9B100215699 /* MessageHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ABD68B22511D9B100215699 /* MessageHandler.h */; };
+		1ABD68C52511D9B100215699 /* MessageBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ABD68B32511D9B100215699 /* MessageBuilder.h */; };
+		1ABD68C62511D9B100215699 /* SingleButtonTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABD68B42511D9B100215699 /* SingleButtonTableCell.m */; };
+		1ABD68C72511D9B100215699 /* DoubleButtonTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ABD68B52511D9B100215699 /* DoubleButtonTableCell.h */; };
+		1ABD68C82511D9B100215699 /* ImageTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABD68B62511D9B100215699 /* ImageTableCell.m */; };
+		1ABD68C92511D9B100215699 /* ImageTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1ABD68B72511D9B100215699 /* ImageTableCell.xib */; };
+		1ABD68CA2511D9B100215699 /* NSMutableArray+Shuffle.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ABD68B82511D9B100215699 /* NSMutableArray+Shuffle.h */; };
+		1ABD68CB2511D9B100215699 /* MessageHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABD68B92511D9B100215699 /* MessageHandler.m */; };
+		1ABD68CC2511D9B100215699 /* SingleButtonTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1ABD68BA2511D9B100215699 /* SingleButtonTableCell.xib */; };
+		1ABD68CD2511D9B100215699 /* TextTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ABD68BB2511D9B100215699 /* TextTableCell.h */; };
+		1ABD68CE2511D9B100215699 /* DoubleButtonTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABD68BC2511D9B100215699 /* DoubleButtonTableCell.m */; };
+		1ABD68CF2511D9B100215699 /* SingleButtonTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ABD68BD2511D9B100215699 /* SingleButtonTableCell.h */; };
+		1ABD68D02511D9B100215699 /* MessageBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABD68BE2511D9B100215699 /* MessageBuilder.m */; };
+		1ABD68D12511D9B100215699 /* NSMutableArray+Shuffle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABD68BF2511D9B100215699 /* NSMutableArray+Shuffle.m */; };
+		1ABD68D22511D9B100215699 /* ImageTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ABD68C02511D9B100215699 /* ImageTableCell.h */; };
+		1ABD68D62511D9B900215699 /* Popup.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ABD68D42511D9B900215699 /* Popup.h */; };
+		1ABD68D72511D9B900215699 /* Popup.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABD68D52511D9B900215699 /* Popup.m */; };
+		1ABD68DE2512002400215699 /* ImageTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1ABD68B72511D9B100215699 /* ImageTableCell.xib */; };
+		1ABD68DF2512002B00215699 /* ImageTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABD68B62511D9B100215699 /* ImageTableCell.m */; };
+		1ABD68E02512009B00215699 /* DoubleButtonTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1ABD68AF2511D9B100215699 /* DoubleButtonTableCell.xib */; };
+		1ABD68E1251200A500215699 /* DoubleButtonTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABD68BC2511D9B100215699 /* DoubleButtonTableCell.m */; };
+		1ABD68E2251200AA00215699 /* SingleButtonTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABD68B42511D9B100215699 /* SingleButtonTableCell.m */; };
+		1ABD68E3251200B000215699 /* SingleButtonTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1ABD68BA2511D9B100215699 /* SingleButtonTableCell.xib */; };
+		1AD411A9253D7016003E3737 /* VizuryRichNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AD411A7253D7016003E3737 /* VizuryRichNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AD411AC253D7016003E3737 /* VizuryRichNotification.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD411A5253D7016003E3737 /* VizuryRichNotification.framework */; };
+		1AD411AD253D7016003E3737 /* VizuryRichNotification.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD411A5253D7016003E3737 /* VizuryRichNotification.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1AD411B2253D704D003E3737 /* VizuryRichNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD411B1253D704D003E3737 /* VizuryRichNotification.m */; };
+		1AD411BB253D709F003E3737 /* NotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD411BA253D709F003E3737 /* NotificationService.m */; };
+		1AD411BF253D709F003E3737 /* MyNotificationService.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1AD411B7253D709F003E3737 /* MyNotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1AD411C5253D8882003E3737 /* VizuryRichNotification.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD411A5253D7016003E3737 /* VizuryRichNotification.framework */; };
+		1AD411C6253D8882003E3737 /* VizuryRichNotification.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD411A5253D7016003E3737 /* VizuryRichNotification.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1AE812D525340F8100394512 /* VizuryEventLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AF28CC5244F583C009C4872 /* VizuryEventLogger.framework */; };
+		1AE812D625340F8100394512 /* VizuryEventLogger.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1AF28CC5244F583C009C4872 /* VizuryEventLogger.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1AF28CCA244F583C009C4872 /* VizuryEventLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AF28CC8244F583C009C4872 /* VizuryEventLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AF28CE9244F587F009C4872 /* EncodingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF28CD1244F587F009C4872 /* EncodingManager.m */; };
+		1AF28CEA244F587F009C4872 /* EncodingManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AF28CD2244F587F009C4872 /* EncodingManager.h */; };
+		1AF28CEB244F587F009C4872 /* UserDefaultsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF28CD4244F587F009C4872 /* UserDefaultsManager.m */; };
+		1AF28CEC244F587F009C4872 /* UserDefaultsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AF28CD5244F587F009C4872 /* UserDefaultsManager.h */; };
+		1AF28CED244F587F009C4872 /* DeviceIdentificationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AF28CD7244F587F009C4872 /* DeviceIdentificationManager.h */; };
+		1AF28CEE244F587F009C4872 /* DeviceIdentificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF28CD8244F587F009C4872 /* DeviceIdentificationManager.m */; };
+		1AF28CEF244F587F009C4872 /* FCMHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF28CDA244F587F009C4872 /* FCMHelper.m */; };
+		1AF28CF0244F587F009C4872 /* FCMHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AF28CDB244F587F009C4872 /* FCMHelper.h */; };
+		1AF28CF1244F587F009C4872 /* VizuryEventLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF28CDC244F587F009C4872 /* VizuryEventLogger.m */; };
+		1AF28CF2244F587F009C4872 /* KeyConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AF28CDD244F587F009C4872 /* KeyConstants.h */; };
+		1AF28CF3244F587F009C4872 /* VizLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF28CDF244F587F009C4872 /* VizLog.m */; };
+		1AF28CF4244F587F009C4872 /* VizLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AF28CE0244F587F009C4872 /* VizLog.h */; };
+		1AF28CF5244F587F009C4872 /* SendMessageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AF28CE2244F587F009C4872 /* SendMessageManager.h */; };
+		1AF28CF6244F587F009C4872 /* SendMessageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF28CE3244F587F009C4872 /* SendMessageManager.m */; };
+		1AF28CF7244F587F009C4872 /* VizuryEventLogger-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 1AF28CE5244F587F009C4872 /* VizuryEventLogger-Prefix.pch */; };
+		1AF28CF8244F587F009C4872 /* AppDetectionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AF28CE7244F587F009C4872 /* AppDetectionManager.h */; };
+		1AF28CF9244F587F009C4872 /* AppDetectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF28CE8244F587F009C4872 /* AppDetectionManager.m */; };
+		25CECB5E6E30B9977665505E /* Pods_SwiftTestDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D67299C548C8F6FCDEC56DD9 /* Pods_SwiftTestDemo.framework */; };
+		75309CED2843C5040062066E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75309CEC2843C5040062066E /* AppDelegate.swift */; };
+		75309CEF2843C5040062066E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75309CEE2843C5040062066E /* SceneDelegate.swift */; };
+		75309CF12843C5040062066E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75309CF02843C5040062066E /* ViewController.swift */; };
+		75309CF42843C5040062066E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75309CF22843C5040062066E /* Main.storyboard */; };
+		75309CF62843C5050062066E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75309CF52843C5050062066E /* Assets.xcassets */; };
+		75309CF92843C5050062066E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75309CF72843C5050062066E /* LaunchScreen.storyboard */; };
+		75309CFE2843C52C0062066E /* VizuryEventLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AF28CC5244F583C009C4872 /* VizuryEventLogger.framework */; };
+		75309CFF2843C5310062066E /* VizuryRichNotification.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD411A5253D7016003E3737 /* VizuryRichNotification.framework */; };
+		75F76F9F2846275C00A8A307 /* Pods_VizuryEventLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FC1393CE8B42EC318A0D53E /* Pods_VizuryEventLogger.framework */; };
+		75F76FA02846275C00A8A307 /* Pods_VizuryEventLogger.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5FC1393CE8B42EC318A0D53E /* Pods_VizuryEventLogger.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		75F76FD82847855800A8A307 /* VizuryRichNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD411B1253D704D003E3737 /* VizuryRichNotification.m */; };
+		A46ECA711CE0E7C9510B478F /* Pods_VizuryObjCSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDEB800A6E229E60332935C3 /* Pods_VizuryObjCSample.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AD411AA253D7016003E3737 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AF28CBC244F583C009C4872 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AD411A4253D7016003E3737;
+			remoteInfo = VizuryRichNotification;
+		};
+		1AD411BD253D709F003E3737 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AF28CBC244F583C009C4872 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AD411B6253D709F003E3737;
+			remoteInfo = MyNotificationService;
+		};
+		1AD411C7253D8882003E3737 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AF28CBC244F583C009C4872 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AD411A4253D7016003E3737;
+			remoteInfo = VizuryRichNotification;
+		};
+		1AE812D725340F8100394512 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AF28CBC244F583C009C4872 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AF28CC4244F583C009C4872;
+			remoteInfo = VizuryEventLogger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1AD411C3253D709F003E3737 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1AD411BF253D709F003E3737 /* MyNotificationService.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD411C9253D8882003E3737 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1AD411C6253D8882003E3737 /* VizuryRichNotification.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AE812D925340F8100394512 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1AD411AD253D7016003E3737 /* VizuryRichNotification.framework in Embed Frameworks */,
+				1AE812D625340F8100394512 /* VizuryEventLogger.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75F76FA12846275C00A8A307 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				75F76FA02846275C00A8A307 /* Pods_VizuryEventLogger.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0F404A207F3C82A7E03AA592 /* Pods-SwiftTestDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTestDemo.debug.xcconfig"; path = "Target Support Files/Pods-SwiftTestDemo/Pods-SwiftTestDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		1A3EB76625108C2B00D5C485 /* VizuryObjCSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VizuryObjCSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A3EB76825108C2B00D5C485 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1A3EB76925108C2B00D5C485 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1A3EB76E25108C2B00D5C485 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1A3EB76F25108C2B00D5C485 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1A3EB77225108C2B00D5C485 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A3EB77425108C2D00D5C485 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A3EB77725108C2D00D5C485 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A3EB77925108C2D00D5C485 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A3EB77A25108C2D00D5C485 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A3EB7842510999A00D5C485 /* VizuryObjCSample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VizuryObjCSample.entitlements; sourceTree = "<group>"; };
+		1A3EB785251099C500D5C485 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1A60128924EA44D5006030CC /* AlertManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertManager.m; sourceTree = "<group>"; };
+		1A60128A24EA44D5006030CC /* AlertManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertManager.h; sourceTree = "<group>"; };
+		1ABD68AF2511D9B100215699 /* DoubleButtonTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DoubleButtonTableCell.xib; sourceTree = "<group>"; };
+		1ABD68B02511D9B100215699 /* TextTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextTableCell.m; sourceTree = "<group>"; };
+		1ABD68B12511D9B100215699 /* TextTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextTableCell.xib; sourceTree = "<group>"; };
+		1ABD68B22511D9B100215699 /* MessageHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageHandler.h; sourceTree = "<group>"; };
+		1ABD68B32511D9B100215699 /* MessageBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageBuilder.h; sourceTree = "<group>"; };
+		1ABD68B42511D9B100215699 /* SingleButtonTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleButtonTableCell.m; sourceTree = "<group>"; };
+		1ABD68B52511D9B100215699 /* DoubleButtonTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleButtonTableCell.h; sourceTree = "<group>"; };
+		1ABD68B62511D9B100215699 /* ImageTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTableCell.m; sourceTree = "<group>"; };
+		1ABD68B72511D9B100215699 /* ImageTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageTableCell.xib; sourceTree = "<group>"; };
+		1ABD68B82511D9B100215699 /* NSMutableArray+Shuffle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Shuffle.h"; sourceTree = "<group>"; };
+		1ABD68B92511D9B100215699 /* MessageHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageHandler.m; sourceTree = "<group>"; };
+		1ABD68BA2511D9B100215699 /* SingleButtonTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SingleButtonTableCell.xib; sourceTree = "<group>"; };
+		1ABD68BB2511D9B100215699 /* TextTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextTableCell.h; sourceTree = "<group>"; };
+		1ABD68BC2511D9B100215699 /* DoubleButtonTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubleButtonTableCell.m; sourceTree = "<group>"; };
+		1ABD68BD2511D9B100215699 /* SingleButtonTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleButtonTableCell.h; sourceTree = "<group>"; };
+		1ABD68BE2511D9B100215699 /* MessageBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageBuilder.m; sourceTree = "<group>"; };
+		1ABD68BF2511D9B100215699 /* NSMutableArray+Shuffle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Shuffle.m"; sourceTree = "<group>"; };
+		1ABD68C02511D9B100215699 /* ImageTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTableCell.h; sourceTree = "<group>"; };
+		1ABD68D42511D9B900215699 /* Popup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Popup.h; sourceTree = "<group>"; };
+		1ABD68D52511D9B900215699 /* Popup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Popup.m; sourceTree = "<group>"; };
+		1AD411A5253D7016003E3737 /* VizuryRichNotification.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VizuryRichNotification.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AD411A7253D7016003E3737 /* VizuryRichNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VizuryRichNotification.h; sourceTree = "<group>"; };
+		1AD411A8253D7016003E3737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AD411B1253D704D003E3737 /* VizuryRichNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VizuryRichNotification.m; sourceTree = "<group>"; };
+		1AD411B7253D709F003E3737 /* MyNotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyNotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AD411B9253D709F003E3737 /* NotificationService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationService.h; sourceTree = "<group>"; };
+		1AD411BA253D709F003E3737 /* NotificationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationService.m; sourceTree = "<group>"; };
+		1AD411BC253D709F003E3737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AD411C4253D70CD003E3737 /* MyNotificationService.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyNotificationService.entitlements; sourceTree = "<group>"; };
+		1AF28CC5244F583C009C4872 /* VizuryEventLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VizuryEventLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AF28CC8244F583C009C4872 /* VizuryEventLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VizuryEventLogger.h; sourceTree = "<group>"; };
+		1AF28CC9244F583C009C4872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AF28CD1244F587F009C4872 /* EncodingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncodingManager.m; sourceTree = "<group>"; };
+		1AF28CD2244F587F009C4872 /* EncodingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncodingManager.h; sourceTree = "<group>"; };
+		1AF28CD4244F587F009C4872 /* UserDefaultsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultsManager.m; sourceTree = "<group>"; };
+		1AF28CD5244F587F009C4872 /* UserDefaultsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultsManager.h; sourceTree = "<group>"; };
+		1AF28CD7244F587F009C4872 /* DeviceIdentificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceIdentificationManager.h; sourceTree = "<group>"; };
+		1AF28CD8244F587F009C4872 /* DeviceIdentificationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceIdentificationManager.m; sourceTree = "<group>"; };
+		1AF28CDA244F587F009C4872 /* FCMHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCMHelper.m; sourceTree = "<group>"; };
+		1AF28CDB244F587F009C4872 /* FCMHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCMHelper.h; sourceTree = "<group>"; };
+		1AF28CDC244F587F009C4872 /* VizuryEventLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VizuryEventLogger.m; sourceTree = "<group>"; };
+		1AF28CDD244F587F009C4872 /* KeyConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyConstants.h; sourceTree = "<group>"; };
+		1AF28CDF244F587F009C4872 /* VizLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VizLog.m; sourceTree = "<group>"; };
+		1AF28CE0244F587F009C4872 /* VizLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VizLog.h; sourceTree = "<group>"; };
+		1AF28CE2244F587F009C4872 /* SendMessageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendMessageManager.h; sourceTree = "<group>"; };
+		1AF28CE3244F587F009C4872 /* SendMessageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendMessageManager.m; sourceTree = "<group>"; };
+		1AF28CE5244F587F009C4872 /* VizuryEventLogger-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VizuryEventLogger-Prefix.pch"; sourceTree = "<group>"; };
+		1AF28CE7244F587F009C4872 /* AppDetectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDetectionManager.h; sourceTree = "<group>"; };
+		1AF28CE8244F587F009C4872 /* AppDetectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDetectionManager.m; sourceTree = "<group>"; };
+		32DE004451A3FF5AB84CA0E2 /* Pods-VizuryEventLogger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VizuryEventLogger.debug.xcconfig"; path = "Target Support Files/Pods-VizuryEventLogger/Pods-VizuryEventLogger.debug.xcconfig"; sourceTree = "<group>"; };
+		5FC1393CE8B42EC318A0D53E /* Pods_VizuryEventLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VizuryEventLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		658CD5D07B8C69FB901A35B0 /* Pods-VizuryObjCSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VizuryObjCSample.release.xcconfig"; path = "Target Support Files/Pods-VizuryObjCSample/Pods-VizuryObjCSample.release.xcconfig"; sourceTree = "<group>"; };
+		75309CEA2843C5040062066E /* SwiftTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75309CEC2843C5040062066E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		75309CEE2843C5040062066E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		75309CF02843C5040062066E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		75309CF32843C5040062066E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75309CF52843C5050062066E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75309CF82843C5050062066E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75309CFA2843C5050062066E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDEB800A6E229E60332935C3 /* Pods_VizuryObjCSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VizuryObjCSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4E8D5E372A9A745D6FBAEDB /* Pods-VizuryObjCSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VizuryObjCSample.debug.xcconfig"; path = "Target Support Files/Pods-VizuryObjCSample/Pods-VizuryObjCSample.debug.xcconfig"; sourceTree = "<group>"; };
+		D67299C548C8F6FCDEC56DD9 /* Pods_SwiftTestDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftTestDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D730148EC3EEE22C6F9CABF6 /* Pods-SwiftTestDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTestDemo.release.xcconfig"; path = "Target Support Files/Pods-SwiftTestDemo/Pods-SwiftTestDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F0E5F2E6AD8D062368E2BFA1 /* Pods-VizuryEventLogger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VizuryEventLogger.release.xcconfig"; path = "Target Support Files/Pods-VizuryEventLogger/Pods-VizuryEventLogger.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A3EB76325108C2B00D5C485 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD411AC253D7016003E3737 /* VizuryRichNotification.framework in Frameworks */,
+				1AE812D525340F8100394512 /* VizuryEventLogger.framework in Frameworks */,
+				A46ECA711CE0E7C9510B478F /* Pods_VizuryObjCSample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD411A2253D7016003E3737 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD411B4253D709F003E3737 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD411C5253D8882003E3737 /* VizuryRichNotification.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AF28CC2244F583C009C4872 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75F76F9F2846275C00A8A307 /* Pods_VizuryEventLogger.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75309CE72843C5030062066E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75309CFF2843C5310062066E /* VizuryRichNotification.framework in Frameworks */,
+				75309CFE2843C52C0062066E /* VizuryEventLogger.framework in Frameworks */,
+				25CECB5E6E30B9977665505E /* Pods_SwiftTestDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A3EB76725108C2B00D5C485 /* VizuryObjCSample */ = {
+			isa = PBXGroup;
+			children = (
+				1A3EB785251099C500D5C485 /* GoogleService-Info.plist */,
+				1A3EB7842510999A00D5C485 /* VizuryObjCSample.entitlements */,
+				1A3EB76825108C2B00D5C485 /* AppDelegate.h */,
+				1A3EB76925108C2B00D5C485 /* AppDelegate.m */,
+				1A3EB76E25108C2B00D5C485 /* ViewController.h */,
+				1A3EB76F25108C2B00D5C485 /* ViewController.m */,
+				1A3EB77125108C2B00D5C485 /* Main.storyboard */,
+				1A3EB77425108C2D00D5C485 /* Assets.xcassets */,
+				1A3EB77625108C2D00D5C485 /* LaunchScreen.storyboard */,
+				1A3EB77925108C2D00D5C485 /* Info.plist */,
+				1A3EB77A25108C2D00D5C485 /* main.m */,
+			);
+			path = VizuryObjCSample;
+			sourceTree = "<group>";
+		};
+		1A60128824EA44D5006030CC /* AlertPopup */ = {
+			isa = PBXGroup;
+			children = (
+				1A60128924EA44D5006030CC /* AlertManager.m */,
+				1A60128A24EA44D5006030CC /* AlertManager.h */,
+			);
+			path = AlertPopup;
+			sourceTree = "<group>";
+		};
+		1ABD68AE2511D9B100215699 /* InApp */ = {
+			isa = PBXGroup;
+			children = (
+				1ABD68AF2511D9B100215699 /* DoubleButtonTableCell.xib */,
+				1ABD68B02511D9B100215699 /* TextTableCell.m */,
+				1ABD68B12511D9B100215699 /* TextTableCell.xib */,
+				1ABD68B22511D9B100215699 /* MessageHandler.h */,
+				1ABD68B32511D9B100215699 /* MessageBuilder.h */,
+				1ABD68B42511D9B100215699 /* SingleButtonTableCell.m */,
+				1ABD68B52511D9B100215699 /* DoubleButtonTableCell.h */,
+				1ABD68B62511D9B100215699 /* ImageTableCell.m */,
+				1ABD68B72511D9B100215699 /* ImageTableCell.xib */,
+				1ABD68B82511D9B100215699 /* NSMutableArray+Shuffle.h */,
+				1ABD68B92511D9B100215699 /* MessageHandler.m */,
+				1ABD68BA2511D9B100215699 /* SingleButtonTableCell.xib */,
+				1ABD68BB2511D9B100215699 /* TextTableCell.h */,
+				1ABD68BC2511D9B100215699 /* DoubleButtonTableCell.m */,
+				1ABD68BD2511D9B100215699 /* SingleButtonTableCell.h */,
+				1ABD68BE2511D9B100215699 /* MessageBuilder.m */,
+				1ABD68BF2511D9B100215699 /* NSMutableArray+Shuffle.m */,
+				1ABD68C02511D9B100215699 /* ImageTableCell.h */,
+			);
+			path = InApp;
+			sourceTree = "<group>";
+		};
+		1ABD68D32511D9B900215699 /* Popup */ = {
+			isa = PBXGroup;
+			children = (
+				1ABD68D42511D9B900215699 /* Popup.h */,
+				1ABD68D52511D9B900215699 /* Popup.m */,
+			);
+			path = Popup;
+			sourceTree = "<group>";
+		};
+		1AD411A6253D7016003E3737 /* VizuryRichNotification */ = {
+			isa = PBXGroup;
+			children = (
+				1AD411A7253D7016003E3737 /* VizuryRichNotification.h */,
+				1AD411B1253D704D003E3737 /* VizuryRichNotification.m */,
+				1AD411A8253D7016003E3737 /* Info.plist */,
+			);
+			path = VizuryRichNotification;
+			sourceTree = "<group>";
+		};
+		1AD411B8253D709F003E3737 /* MyNotificationService */ = {
+			isa = PBXGroup;
+			children = (
+				1AD411C4253D70CD003E3737 /* MyNotificationService.entitlements */,
+				1AD411B9253D709F003E3737 /* NotificationService.h */,
+				1AD411BA253D709F003E3737 /* NotificationService.m */,
+				1AD411BC253D709F003E3737 /* Info.plist */,
+			);
+			path = MyNotificationService;
+			sourceTree = "<group>";
+		};
+		1AF28CBB244F583C009C4872 = {
+			isa = PBXGroup;
+			children = (
+				1AF28CC7244F583C009C4872 /* VizuryEventLogger */,
+				1A3EB76725108C2B00D5C485 /* VizuryObjCSample */,
+				1AD411A6253D7016003E3737 /* VizuryRichNotification */,
+				1AD411B8253D709F003E3737 /* MyNotificationService */,
+				75309CEB2843C5040062066E /* SwiftTestDemo */,
+				1AF28CC6244F583C009C4872 /* Products */,
+				D4CC0EA0DD220E2700B0EC45 /* Pods */,
+				99E46811D882C77A606CD998 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1AF28CC6244F583C009C4872 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AF28CC5244F583C009C4872 /* VizuryEventLogger.framework */,
+				1A3EB76625108C2B00D5C485 /* VizuryObjCSample.app */,
+				1AD411A5253D7016003E3737 /* VizuryRichNotification.framework */,
+				1AD411B7253D709F003E3737 /* MyNotificationService.appex */,
+				75309CEA2843C5040062066E /* SwiftTestDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AF28CC7244F583C009C4872 /* VizuryEventLogger */ = {
+			isa = PBXGroup;
+			children = (
+				1AF28CC9244F583C009C4872 /* Info.plist */,
+				1ABD68D32511D9B900215699 /* Popup */,
+				1ABD68AE2511D9B100215699 /* InApp */,
+				1A60128824EA44D5006030CC /* AlertPopup */,
+				1AF28CE6244F587F009C4872 /* AppDetectionManager */,
+				1AF28CD6244F587F009C4872 /* DeviceIdentificationManager */,
+				1AF28CD0244F587F009C4872 /* EncodingManager */,
+				1AF28CDD244F587F009C4872 /* KeyConstants.h */,
+				1AF28CDE244F587F009C4872 /* LogManager */,
+				1AF28CD9244F587F009C4872 /* Push */,
+				1AF28CE1244F587F009C4872 /* SendMessage */,
+				1AF28CE4244F587F009C4872 /* Supporting Files */,
+				1AF28CD3244F587F009C4872 /* UserDefaultsManager */,
+				1AF28CC8244F583C009C4872 /* VizuryEventLogger.h */,
+				1AF28CDC244F587F009C4872 /* VizuryEventLogger.m */,
+			);
+			path = VizuryEventLogger;
+			sourceTree = "<group>";
+		};
+		1AF28CD0244F587F009C4872 /* EncodingManager */ = {
+			isa = PBXGroup;
+			children = (
+				1AF28CD1244F587F009C4872 /* EncodingManager.m */,
+				1AF28CD2244F587F009C4872 /* EncodingManager.h */,
+			);
+			path = EncodingManager;
+			sourceTree = "<group>";
+		};
+		1AF28CD3244F587F009C4872 /* UserDefaultsManager */ = {
+			isa = PBXGroup;
+			children = (
+				1AF28CD4244F587F009C4872 /* UserDefaultsManager.m */,
+				1AF28CD5244F587F009C4872 /* UserDefaultsManager.h */,
+			);
+			path = UserDefaultsManager;
+			sourceTree = "<group>";
+		};
+		1AF28CD6244F587F009C4872 /* DeviceIdentificationManager */ = {
+			isa = PBXGroup;
+			children = (
+				1AF28CD7244F587F009C4872 /* DeviceIdentificationManager.h */,
+				1AF28CD8244F587F009C4872 /* DeviceIdentificationManager.m */,
+			);
+			path = DeviceIdentificationManager;
+			sourceTree = "<group>";
+		};
+		1AF28CD9244F587F009C4872 /* Push */ = {
+			isa = PBXGroup;
+			children = (
+				1AF28CDA244F587F009C4872 /* FCMHelper.m */,
+				1AF28CDB244F587F009C4872 /* FCMHelper.h */,
+			);
+			path = Push;
+			sourceTree = "<group>";
+		};
+		1AF28CDE244F587F009C4872 /* LogManager */ = {
+			isa = PBXGroup;
+			children = (
+				1AF28CDF244F587F009C4872 /* VizLog.m */,
+				1AF28CE0244F587F009C4872 /* VizLog.h */,
+			);
+			path = LogManager;
+			sourceTree = "<group>";
+		};
+		1AF28CE1244F587F009C4872 /* SendMessage */ = {
+			isa = PBXGroup;
+			children = (
+				1AF28CE2244F587F009C4872 /* SendMessageManager.h */,
+				1AF28CE3244F587F009C4872 /* SendMessageManager.m */,
+			);
+			path = SendMessage;
+			sourceTree = "<group>";
+		};
+		1AF28CE4244F587F009C4872 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AF28CE5244F587F009C4872 /* VizuryEventLogger-Prefix.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1AF28CE6244F587F009C4872 /* AppDetectionManager */ = {
+			isa = PBXGroup;
+			children = (
+				1AF28CE7244F587F009C4872 /* AppDetectionManager.h */,
+				1AF28CE8244F587F009C4872 /* AppDetectionManager.m */,
+			);
+			path = AppDetectionManager;
+			sourceTree = "<group>";
+		};
+		75309CEB2843C5040062066E /* SwiftTestDemo */ = {
+			isa = PBXGroup;
+			children = (
+				75309CEC2843C5040062066E /* AppDelegate.swift */,
+				75309CEE2843C5040062066E /* SceneDelegate.swift */,
+				75309CF02843C5040062066E /* ViewController.swift */,
+				75309CF22843C5040062066E /* Main.storyboard */,
+				75309CF52843C5050062066E /* Assets.xcassets */,
+				75309CF72843C5050062066E /* LaunchScreen.storyboard */,
+				75309CFA2843C5050062066E /* Info.plist */,
+			);
+			path = SwiftTestDemo;
+			sourceTree = "<group>";
+		};
+		99E46811D882C77A606CD998 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FC1393CE8B42EC318A0D53E /* Pods_VizuryEventLogger.framework */,
+				BDEB800A6E229E60332935C3 /* Pods_VizuryObjCSample.framework */,
+				D67299C548C8F6FCDEC56DD9 /* Pods_SwiftTestDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4CC0EA0DD220E2700B0EC45 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32DE004451A3FF5AB84CA0E2 /* Pods-VizuryEventLogger.debug.xcconfig */,
+				F0E5F2E6AD8D062368E2BFA1 /* Pods-VizuryEventLogger.release.xcconfig */,
+				C4E8D5E372A9A745D6FBAEDB /* Pods-VizuryObjCSample.debug.xcconfig */,
+				658CD5D07B8C69FB901A35B0 /* Pods-VizuryObjCSample.release.xcconfig */,
+				0F404A207F3C82A7E03AA592 /* Pods-SwiftTestDemo.debug.xcconfig */,
+				D730148EC3EEE22C6F9CABF6 /* Pods-SwiftTestDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1AD411A0253D7016003E3737 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD411A9253D7016003E3737 /* VizuryRichNotification.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AF28CC0244F583C009C4872 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AF28CF4244F587F009C4872 /* VizLog.h in Headers */,
+				1ABD68CA2511D9B100215699 /* NSMutableArray+Shuffle.h in Headers */,
+				1ABD68CD2511D9B100215699 /* TextTableCell.h in Headers */,
+				1ABD68D22511D9B100215699 /* ImageTableCell.h in Headers */,
+				1AF28CF2244F587F009C4872 /* KeyConstants.h in Headers */,
+				1ABD68C72511D9B100215699 /* DoubleButtonTableCell.h in Headers */,
+				1AF28CED244F587F009C4872 /* DeviceIdentificationManager.h in Headers */,
+				1AF28CF7244F587F009C4872 /* VizuryEventLogger-Prefix.pch in Headers */,
+				1AF28CF0244F587F009C4872 /* FCMHelper.h in Headers */,
+				1ABD68CF2511D9B100215699 /* SingleButtonTableCell.h in Headers */,
+				1A60128C24EA44D5006030CC /* AlertManager.h in Headers */,
+				1AF28CF5244F587F009C4872 /* SendMessageManager.h in Headers */,
+				1AF28CCA244F583C009C4872 /* VizuryEventLogger.h in Headers */,
+				1AF28CEA244F587F009C4872 /* EncodingManager.h in Headers */,
+				1ABD68C42511D9B100215699 /* MessageHandler.h in Headers */,
+				1AF28CF8244F587F009C4872 /* AppDetectionManager.h in Headers */,
+				1ABD68C52511D9B100215699 /* MessageBuilder.h in Headers */,
+				1AF28CEC244F587F009C4872 /* UserDefaultsManager.h in Headers */,
+				1ABD68D62511D9B900215699 /* Popup.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1A3EB76525108C2B00D5C485 /* VizuryObjCSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A3EB77E25108C2D00D5C485 /* Build configuration list for PBXNativeTarget "VizuryObjCSample" */;
+			buildPhases = (
+				5CFC45532EC0188C0174F69C /* [CP] Check Pods Manifest.lock */,
+				1A3EB76225108C2B00D5C485 /* Sources */,
+				1A3EB76325108C2B00D5C485 /* Frameworks */,
+				1A3EB76425108C2B00D5C485 /* Resources */,
+				8B1422E3328933E613A7DB58 /* [CP] Embed Pods Frameworks */,
+				1AE812D925340F8100394512 /* Embed Frameworks */,
+				1AD411C3253D709F003E3737 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AE812D825340F8100394512 /* PBXTargetDependency */,
+				1AD411AB253D7016003E3737 /* PBXTargetDependency */,
+				1AD411BE253D709F003E3737 /* PBXTargetDependency */,
+			);
+			name = VizuryObjCSample;
+			productName = VizuryObjCSample;
+			productReference = 1A3EB76625108C2B00D5C485 /* VizuryObjCSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AD411A4253D7016003E3737 /* VizuryRichNotification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AD411B0253D7016003E3737 /* Build configuration list for PBXNativeTarget "VizuryRichNotification" */;
+			buildPhases = (
+				1AD411A0253D7016003E3737 /* Headers */,
+				1AD411A1253D7016003E3737 /* Sources */,
+				1AD411A2253D7016003E3737 /* Frameworks */,
+				1AD411A3253D7016003E3737 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VizuryRichNotification;
+			productName = VizuryRichNotification;
+			productReference = 1AD411A5253D7016003E3737 /* VizuryRichNotification.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1AD411B6253D709F003E3737 /* MyNotificationService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AD411C0253D709F003E3737 /* Build configuration list for PBXNativeTarget "MyNotificationService" */;
+			buildPhases = (
+				1AD411B3253D709F003E3737 /* Sources */,
+				1AD411B4253D709F003E3737 /* Frameworks */,
+				1AD411B5253D709F003E3737 /* Resources */,
+				1AD411C9253D8882003E3737 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AD411C8253D8882003E3737 /* PBXTargetDependency */,
+			);
+			name = MyNotificationService;
+			productName = MyNotificationService;
+			productReference = 1AD411B7253D709F003E3737 /* MyNotificationService.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		1AF28CC4244F583C009C4872 /* VizuryEventLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AF28CCD244F583C009C4872 /* Build configuration list for PBXNativeTarget "VizuryEventLogger" */;
+			buildPhases = (
+				13F2F2BF575802963739163D /* [CP] Check Pods Manifest.lock */,
+				1AF28CC0244F583C009C4872 /* Headers */,
+				1AF28CC1244F583C009C4872 /* Sources */,
+				1AF28CC2244F583C009C4872 /* Frameworks */,
+				1AF28CC3244F583C009C4872 /* Resources */,
+				75F76FA12846275C00A8A307 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VizuryEventLogger;
+			productName = VizuryEventLogger;
+			productReference = 1AF28CC5244F583C009C4872 /* VizuryEventLogger.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		75309CE92843C5030062066E /* SwiftTestDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75309CFD2843C5050062066E /* Build configuration list for PBXNativeTarget "SwiftTestDemo" */;
+			buildPhases = (
+				B4B3BAE0FF1806F4D71812AC /* [CP] Check Pods Manifest.lock */,
+				75309CE62843C5030062066E /* Sources */,
+				75309CE72843C5030062066E /* Frameworks */,
+				75309CE82843C5030062066E /* Resources */,
+				2E489E04F3E407C0E09240B8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftTestDemo;
+			productName = SwiftTestDemo;
+			productReference = 75309CEA2843C5040062066E /* SwiftTestDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AF28CBC244F583C009C4872 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Chowdhury Md Rajib  Sarwar";
+				TargetAttributes = {
+					1A3EB76525108C2B00D5C485 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					1AD411A4253D7016003E3737 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					1AD411B6253D709F003E3737 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					1AF28CC4244F583C009C4872 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					75309CE92843C5030062066E = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 1AF28CBF244F583C009C4872 /* Build configuration list for PBXProject "VizuryEventLogger" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AF28CBB244F583C009C4872;
+			productRefGroup = 1AF28CC6244F583C009C4872 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AF28CC4244F583C009C4872 /* VizuryEventLogger */,
+				1A3EB76525108C2B00D5C485 /* VizuryObjCSample */,
+				1AD411A4253D7016003E3737 /* VizuryRichNotification */,
+				1AD411B6253D709F003E3737 /* MyNotificationService */,
+				75309CE92843C5030062066E /* SwiftTestDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A3EB76425108C2B00D5C485 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A3EB77825108C2D00D5C485 /* LaunchScreen.storyboard in Resources */,
+				1A3EB786251099C500D5C485 /* GoogleService-Info.plist in Resources */,
+				1A3EB77525108C2D00D5C485 /* Assets.xcassets in Resources */,
+				1ABD68E02512009B00215699 /* DoubleButtonTableCell.xib in Resources */,
+				1ABD68DE2512002400215699 /* ImageTableCell.xib in Resources */,
+				1A3EB77325108C2B00D5C485 /* Main.storyboard in Resources */,
+				1ABD68E3251200B000215699 /* SingleButtonTableCell.xib in Resources */,
+				1A15CD1D25186D6000269C50 /* TextTableCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD411A3253D7016003E3737 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD411B5253D709F003E3737 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AF28CC3244F583C009C4872 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ABD68CC2511D9B100215699 /* SingleButtonTableCell.xib in Resources */,
+				1ABD68C12511D9B100215699 /* DoubleButtonTableCell.xib in Resources */,
+				1ABD68C32511D9B100215699 /* TextTableCell.xib in Resources */,
+				1ABD68C92511D9B100215699 /* ImageTableCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75309CE82843C5030062066E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75309CF92843C5050062066E /* LaunchScreen.storyboard in Resources */,
+				75309CF62843C5050062066E /* Assets.xcassets in Resources */,
+				75309CF42843C5040062066E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13F2F2BF575802963739163D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VizuryEventLogger-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E489E04F3E407C0E09240B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftTestDemo/Pods-SwiftTestDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftTestDemo/Pods-SwiftTestDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftTestDemo/Pods-SwiftTestDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CFC45532EC0188C0174F69C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VizuryObjCSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B1422E3328933E613A7DB58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VizuryObjCSample/Pods-VizuryObjCSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VizuryObjCSample/Pods-VizuryObjCSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VizuryObjCSample/Pods-VizuryObjCSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4B3BAE0FF1806F4D71812AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftTestDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A3EB76225108C2B00D5C485 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A3EB77025108C2B00D5C485 /* ViewController.m in Sources */,
+				1A3EB76A25108C2B00D5C485 /* AppDelegate.m in Sources */,
+				1ABD68E2251200AA00215699 /* SingleButtonTableCell.m in Sources */,
+				1ABD68E1251200A500215699 /* DoubleButtonTableCell.m in Sources */,
+				1ABD68DF2512002B00215699 /* ImageTableCell.m in Sources */,
+				1A3EB77B25108C2D00D5C485 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD411A1253D7016003E3737 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD411B2253D704D003E3737 /* VizuryRichNotification.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD411B3253D709F003E3737 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD411BB253D709F003E3737 /* NotificationService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AF28CC1244F583C009C4872 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AF28CF1244F587F009C4872 /* VizuryEventLogger.m in Sources */,
+				75F76FD82847855800A8A307 /* VizuryRichNotification.m in Sources */,
+				1ABD68CB2511D9B100215699 /* MessageHandler.m in Sources */,
+				1AF28CEF244F587F009C4872 /* FCMHelper.m in Sources */,
+				1AF28CEB244F587F009C4872 /* UserDefaultsManager.m in Sources */,
+				1A60128B24EA44D5006030CC /* AlertManager.m in Sources */,
+				1ABD68D12511D9B100215699 /* NSMutableArray+Shuffle.m in Sources */,
+				1ABD68D02511D9B100215699 /* MessageBuilder.m in Sources */,
+				1AF28CF9244F587F009C4872 /* AppDetectionManager.m in Sources */,
+				1AF28CEE244F587F009C4872 /* DeviceIdentificationManager.m in Sources */,
+				1AF28CF3244F587F009C4872 /* VizLog.m in Sources */,
+				1AF28CE9244F587F009C4872 /* EncodingManager.m in Sources */,
+				1ABD68C62511D9B100215699 /* SingleButtonTableCell.m in Sources */,
+				1AF28CF6244F587F009C4872 /* SendMessageManager.m in Sources */,
+				1ABD68D72511D9B900215699 /* Popup.m in Sources */,
+				1ABD68C82511D9B100215699 /* ImageTableCell.m in Sources */,
+				1ABD68C22511D9B100215699 /* TextTableCell.m in Sources */,
+				1ABD68CE2511D9B100215699 /* DoubleButtonTableCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75309CE62843C5030062066E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75309CF12843C5040062066E /* ViewController.swift in Sources */,
+				75309CED2843C5040062066E /* AppDelegate.swift in Sources */,
+				75309CEF2843C5040062066E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AD411AB253D7016003E3737 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AD411A4253D7016003E3737 /* VizuryRichNotification */;
+			targetProxy = 1AD411AA253D7016003E3737 /* PBXContainerItemProxy */;
+		};
+		1AD411BE253D709F003E3737 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AD411B6253D709F003E3737 /* MyNotificationService */;
+			targetProxy = 1AD411BD253D709F003E3737 /* PBXContainerItemProxy */;
+		};
+		1AD411C8253D8882003E3737 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AD411A4253D7016003E3737 /* VizuryRichNotification */;
+			targetProxy = 1AD411C7253D8882003E3737 /* PBXContainerItemProxy */;
+		};
+		1AE812D825340F8100394512 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AF28CC4244F583C009C4872 /* VizuryEventLogger */;
+			targetProxy = 1AE812D725340F8100394512 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A3EB77125108C2B00D5C485 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A3EB77225108C2B00D5C485 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A3EB77625108C2D00D5C485 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A3EB77725108C2D00D5C485 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		75309CF22843C5040062066E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75309CF32843C5040062066E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75309CF72843C5050062066E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75309CF82843C5050062066E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A3EB77C25108C2D00D5C485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4E8D5E372A9A745D6FBAEDB /* Pods-VizuryObjCSample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VizuryObjCSample/VizuryObjCSample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UVJQV2LNHC;
+				INFOPLIST_FILE = VizuryObjCSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vizury.objcsample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A3EB77D25108C2D00D5C485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 658CD5D07B8C69FB901A35B0 /* Pods-VizuryObjCSample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VizuryObjCSample/VizuryObjCSample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UVJQV2LNHC;
+				INFOPLIST_FILE = VizuryObjCSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vizury.objcsample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1AD411AE253D7016003E3737 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = UVJQV2LNHC;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = VizuryRichNotification/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vizury.VizuryRichNotification;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AD411AF253D7016003E3737 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = UVJQV2LNHC;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = VizuryRichNotification/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vizury.VizuryRichNotification;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1AD411C1253D709F003E3737 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = MyNotificationService/MyNotificationService.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UVJQV2LNHC;
+				INFOPLIST_FILE = MyNotificationService/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vizury.objcsample.MyNotificationService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AD411C2253D709F003E3737 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = MyNotificationService/MyNotificationService.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UVJQV2LNHC;
+				INFOPLIST_FILE = MyNotificationService/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vizury.objcsample.MyNotificationService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1AF28CCB244F583C009C4872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1AF28CCC244F583C009C4872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1AF28CCE244F583C009C4872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32DE004451A3FF5AB84CA0E2 /* Pods-VizuryEventLogger.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = UVJQV2LNHC;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "VizuryEventLogger/Supporting Files/VizuryEventLogger-Prefix.pch";
+				INFOPLIST_FILE = VizuryEventLogger/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vizury.VizuryEventLogger;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AF28CCF244F583C009C4872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0E5F2E6AD8D062368E2BFA1 /* Pods-VizuryEventLogger.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = UVJQV2LNHC;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "VizuryEventLogger/Supporting Files/VizuryEventLogger-Prefix.pch";
+				INFOPLIST_FILE = VizuryEventLogger/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vizury.VizuryEventLogger;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		75309CFB2843C5050062066E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F404A207F3C82A7E03AA592 /* Pods-SwiftTestDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UVJQV2LNHC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftTestDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Affle.SwiftTestDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75309CFC2843C5050062066E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D730148EC3EEE22C6F9CABF6 /* Pods-SwiftTestDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UVJQV2LNHC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftTestDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Affle.SwiftTestDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A3EB77E25108C2D00D5C485 /* Build configuration list for PBXNativeTarget "VizuryObjCSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A3EB77C25108C2D00D5C485 /* Debug */,
+				1A3EB77D25108C2D00D5C485 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AD411B0253D7016003E3737 /* Build configuration list for PBXNativeTarget "VizuryRichNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AD411AE253D7016003E3737 /* Debug */,
+				1AD411AF253D7016003E3737 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AD411C0253D709F003E3737 /* Build configuration list for PBXNativeTarget "MyNotificationService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AD411C1253D709F003E3737 /* Debug */,
+				1AD411C2253D709F003E3737 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AF28CBF244F583C009C4872 /* Build configuration list for PBXProject "VizuryEventLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AF28CCB244F583C009C4872 /* Debug */,
+				1AF28CCC244F583C009C4872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AF28CCD244F583C009C4872 /* Build configuration list for PBXNativeTarget "VizuryEventLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AF28CCE244F583C009C4872 /* Debug */,
+				1AF28CCF244F583C009C4872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75309CFD2843C5050062066E /* Build configuration list for PBXNativeTarget "SwiftTestDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75309CFB2843C5050062066E /* Debug */,
+				75309CFC2843C5050062066E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AF28CBC244F583C009C4872 /* Project object */;
+}

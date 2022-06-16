@@ -1,0 +1,6 @@
+framework module VizuryEventLogger {
+  umbrella header "VizuryEventLogger.h"
+
+  export *
+  module * { export * }
+}

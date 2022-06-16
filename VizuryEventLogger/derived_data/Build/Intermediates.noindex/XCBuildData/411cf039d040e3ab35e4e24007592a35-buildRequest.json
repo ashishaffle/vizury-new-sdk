@@ -1,0 +1,69 @@
+{
+  "_buildCommand2" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildOnly"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "7259d7a1fd2aed0c450019660ca830f6794613880a7e7c9d8a1192a4e9d5849e"
+    }
+  ],
+  "containerPath" : "/Users/ashish/Documents/bitbucket/ios-sdk/VizuryEventLogger/VizuryEventLogger.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : true,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator15.2",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "i386",
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/ashish/Documents/bitbucket/ios-sdk/VizuryEventLogger/derived_data/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/ashish/Documents/bitbucket/ios-sdk/VizuryEventLogger/derived_data/Build/Products",
+      "derivedDataPath" : "/Users/ashish/Documents/bitbucket/ios-sdk/VizuryEventLogger/derived_data",
+      "indexDataStoreFolderPath" : "/Users/ashish/Documents/bitbucket/ios-sdk/VizuryEventLogger/derived_data/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/ashish/Documents/bitbucket/ios-sdk/VizuryEventLogger/derived_data/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/ashish/Documents/bitbucket/ios-sdk/VizuryEventLogger/derived_data/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+          "BUILD_LIBRARY_FOR_DISTRIBUTION" : "YES",
+          "SDKROOT" : "iphonesimulator15.2"
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "build",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "COLOR_DIAGNOSTICS" : "YES",
+          "diagnostic_message_length" : "80",
+          "ENABLE_PREVIEWS" : "NO",
+          "TARGET_DEVICE_IDENTIFIER" : "dvtdevice-DVTiOSDeviceSimulatorPlaceholder-iphonesimulator:placeholder",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

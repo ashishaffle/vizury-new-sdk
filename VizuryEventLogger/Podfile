@@ -1,0 +1,29 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'VizuryEventLogger' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for VizuryEventLogger
+    pod 'Firebase/Messaging'
+
+end
+
+target 'VizuryObjCSample' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for VizuryEventLogger
+  # pod 'VizuryEventLoggerUniversal'#, :git => #'https://github.com/ayon-affle/vizury-ios-sdk.git', :tag => 'vizuryeventlogger-1.5.7'
+  pod 'Firebase/Messaging'
+  
+
+end
+
+target 'SwiftTestDemo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'Firebase/Messaging'
+
+end
